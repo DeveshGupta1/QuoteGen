@@ -59,7 +59,7 @@ var check2=1;
       document.getElementById('nextq').addEventListener('click', function() {
           if(check==1 || check2==1)
           { check=0;
-            getNewQuote();
+            getNewQuote();                         //This part is contributed by me.
             check2=0;
           }
 
